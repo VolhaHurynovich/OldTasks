@@ -28,7 +28,7 @@ public class Runner {
                 if (!(inputDirectory.equalsIgnoreCase("stop"))) {
                     File fileForHelp = new File(inputDirectory);
                     if (!fileForHelp.exists()) {
-                        System.out.println("The directory doesn't exist. Enter any correct directory");
+                        System.out.println("The     directory doesn't exist. Enter any correct directory");
                         continue;
                     }
                     if (!directoriesForSearch.contains(fileForHelp)) {
