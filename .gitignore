@@ -1,0 +1,6 @@
+.idea
+libs
+lib
+*.iml
+out
+bin
