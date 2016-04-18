@@ -19,7 +19,11 @@ public class Runner {
             Scanner scn = new Scanner(System.in);
             fileHTML = new File(Path_toWtite_Const);
 
+<<<<<<< 1cee740558ce3de10930841b974487eeaf65bba0
             System.out.println("Enter12345 directories for search " + CONST_EXTENSION + " files (For example: D:\\music\\for test\\).\nEnter 'stop' for end");
+=======
+            System.out.println("Enter   directories for search " + CONST_EXTENSION + " files (For example: D:\\music\\for test\\).\nEnter 'stop' for end");
+>>>>>>> Second commit
             int countDirectory = 1;
             do {
                 System.out.println("Enter directory " + countDirectory + ":");
